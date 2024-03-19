@@ -9,7 +9,7 @@ path = '/home/aabbyy/Hagobuy_Links'
 if path not in sys.path:
     sys.path.insert(0, path)
 
-os.environ['DJANGO_SETTINGS_MODULE'] = 'Hagobuy.settings'
+os.environ['DJANGO_SETTINGS_MODULE'] = 'Hagobuy_Links.settings'
 
 ## Uncomment the lines below depending on your Django version
 ###### then, for Django >=1.5:
