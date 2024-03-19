@@ -5,11 +5,11 @@ from django.core.handlers.wsgi import WSGIHandler
 # To use your own Django app use code like this:
 import os
 import sys
-path = '/home/aabbyy/Hagobuy_Links'
+path = '/home/aabbyy/Hagobuy'
 if path not in sys.path:
     sys.path.insert(0, path)
 
-os.environ['DJANGO_SETTINGS_MODULE'] = 'Hagobuy_Links.settings'
+os.environ['DJANGO_SETTINGS_MODULE'] = 'Hagobuy.settings'
 
 ## Uncomment the lines below depending on your Django version
 ###### then, for Django >=1.5:
