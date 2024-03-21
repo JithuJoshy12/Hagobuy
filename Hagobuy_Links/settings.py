@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-i_echql(7x+yc_19ibg6^(zq%stbf$ei*k#pqhv$1r89d8_%rc
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["aabbyy.pythonanywhere.com"]
+ALLOWED_HOSTS = ["aabbyy.pythonanywhere.com", '127.0.0.1']
 
 
 # Application definition
@@ -124,7 +124,7 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'Hagobuy_Links\static'),  # Replace 'static' with the actual name of your static files directory
+    os.path.join(BASE_DIR, 'Hagobuy_Links/static'),  # Replace 'static' with the actual name of your static files directory
 ]
 
 
