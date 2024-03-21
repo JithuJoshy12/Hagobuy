@@ -5,95 +5,170 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hagobuy Links</title>
     <style>
+        /* Reset CSS */
         body {
-    background-color: lightgray; /* Background Color: Light gray */
-    margin: 0; /* Reset default margin */
-    padding: 0; /* Reset default padding */
-}
+            background-color: lightgray; /* Background Color: Light gray */
+            margin: 0; /* Reset default margin */
+            padding: 0; /* Reset default padding */
+            font-family: Arial, sans-serif; /* Default font */
+            line-height: 1.6;
+            color: #333;
+        }
 
+        /* Banner Styles */
+        .banner {
+            background-color: darkblue;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
 
-.banner {
-    background-color: darkblue;
-    color: #ffffff;
-    padding: 20px;
-    text-align: center;
-    font-size: 24px;
-    font-weight: bold;
-}
+        /* Menu Styles */
+        .menu {
+            text-align: center;
+            margin-bottom: 20px;
+        }
 
-.menu {
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
+        .menu ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
 
-.menu ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-}
+        .menu li {
+            display: inline-block;
+            margin-right: 20px;
+            position: relative; /* Required for tooltip positioning */
+        }
 
-.menu li {
-    display: inline-block;
-    margin-right: 20px;
-}
+        .menu li:last-child {
+            margin-right: 0;
+        }
 
-.menu li:last-child {
-    margin-right: 0;
-}
+        .menu a {
+            color: #007bff;
+            text-decoration: none;
+            font-size: 18px;
+        }
 
-.menu a {
-    color: #007bff;
-    text-decoration: none;
-    font-size: 18px;
-}
+        .menu a:hover {
+            text-decoration: underline;
+        }
 
-.menu a:hover {
-    text-decoration: underline;
-}
+        /* Tooltip Styles */
+        .tooltip {
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px;
+            visibility: hidden;
+            opacity: 0;
+            transition: opacity 0.3s, visibility 0s linear 0.3s;
+        }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr); /* 5 columns */
-    gap: 10px; /* gap between items */
-    justify-items: center; /* center items horizontally */
-}
+        .menu li:hover .tooltip {
+            visibility: visible;
+            opacity: 1;
+            transition: opacity 0.3s;
+        }
 
-.grid-item {
-    text-align: center;
-    width: 100%; /* Ensures each item takes the full width of its grid cell */
-}
+        /* Paragraph Styles */
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
 
-.grid-item img {
-    width: 100%; /* Ensures the image fills its container */
-    height: auto;
-    transition: transform 0.3s ease; /* smooth transition for zoom effect */
-}
+        .content p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
 
-.grid-item img:hover {
-    transform: scale(1.1); /* zoom in effect on hover */
-}
-</style>
+        .button-container {
+        text-align: center;
+        margin-top: 50px; /* Adjust as needed */
+  }
+
+        .button {
+            position: center;
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff; /* Blue */
+            color: white;
+        }
+
+        .button:hover {
+            background-color: #0056b3; /* Darker Blue */
+        }
+
+        /* Additional styling for each button */
+        #discordButton {
+            background-color: #7289da; /* Discord color */
+        }
+
+        #tiktokButton {
+            background-color: #69c9d0; /* TikTok color */
+        }
+
+        #affiliateButton {
+            background-color: #ff4500; /* Affiliate color */
+        }
+    </style>
+
 </head>
 <body>
     <div class="banner">
-        <a href="https://weidian.info/r/aabbyy">Press Link to get 105$ off!</a>
+        <a href="https://weidian.info/r/aabbyy">Press Link to get $105 off!</a>
     </div>
 
     <!-- Menu -->
     <div class="menu">
         <ul>
-            <li><a href="{% url 'core:main' %}">Home</a></li>
-            <li><a href="{% url 'core:short_sleeves' %}">Short Sleeves</a></li>
-            <li><a href="{% url 'core:long_sleeves' %}">Long Sleeves</a></li>
-            <li><a href="{% url 'core:pants' %}">Pants</a></li>
-            <li><a href="{% url 'core:shorts' %}">Shorts</a></li>
-            <li><a href="{% url 'core:shoes' %}">Shoes</a></li>
-            <li><a href="{% url 'core:accessories' %}">Accessories</a></li>
-            <li><a href="{% url 'core:sweaters' %}">Sweaters</a></li>
-            <li><a href="{% url 'core:jackets' %}">Jackets</a></li>
+            <li><a href="{% url 'core:main' %}">Home</a><span class="tooltip">Return to the homepage</span></li>
+            <li><a href="{% url 'core:short_sleeves' %}">Short Sleeves</a><span class="tooltip">Short Sleeves</span></li>
+            <li><a href="{% url 'core:long_sleeves' %}">Long Sleeves</a><span class="tooltip">Long Sleeves</span></li>
+            <li><a href="{% url 'core:pants' %}">Pants</a><span class="tooltip">Pants</span></li>
+            <li><a href="{% url 'core:shorts' %}">Shorts</a><span class="tooltip">Shorts</span></li>
+            <li><a href="{% url 'core:shoes' %}">Shoes</a><span class="tooltip">Shoes</span></li>
+            <li><a href="{% url 'core:accessories' %}">Accessories</a><span class="tooltip">Accessories</span></li>
+            <li><a href="{% url 'core:sweaters' %}">Sweaters</a><span class="tooltip">Sweaters</span></li>
+            <li><a href="{% url 'core:jackets' %}">Jackets</a><span class="tooltip">Jackets</span></li>
+            <!-- Add explanations for other menu options similarly -->
         </ul>
     </div>
+
+    <!-- Grid Container -->
+    <div class="grid-container">
+        <!-- Add your grid items here -->
+    </div>
+
+    <div class="content">
+        <p>Hey there! So, let me tell you a bit about how I put together this website. You see, I've been on the hunt for reliable suppliers for a while now, and let me tell you, it's no walk in the park. Scams, low-quality products—you name it, I've probably encountered it. That's why I decided to take matters into my own hands and create a space where fellow shoppers like you can find trustworthy suppliers without getting scammed.</p>
+        <p>Now, here's the kicker: every single product you see on this site? I've personally tested them out. Yup, you heard that right. From the cozy sweaters to the stylish jackets, I've given them all a go. Why? Because I believe in offering only the best to my fellow shoppers. And hey, here's a little something extra for you: if you sign up using my affiliate link, you'll get a whopping $105 off your orders!</p>
+        <p>This isn't just another online store. It's a curated collection of products that I've handpicked to ensure quality, reliability, and style. All my socials and Hagobuy 105$ discount will be below as well as on the header. So go ahead, explore, and shop with confidence knowing that you're getting the real deal. Happy shopping!</p>
+    </div>
+
+
+    <!-- Buttons -->
+    <div class="button-container">
+<button class="button" id="discordButton" onclick="window.location.href='https://discord.gg/ysXsAF7fJJ'">Join Discord Server</button>
+<button class="button" id="tiktokButton" onclick="window.location.href='https://www.tiktok.com/@aabbyy282'">Visit TikTok</button>
+<button class="button" id="affiliateButton" onclick="window.location.href='https://weidian.info/r/aabbyy'">Hagobuy Sign Up Link</button>
+</div>
+    
 </body>
 </html>
