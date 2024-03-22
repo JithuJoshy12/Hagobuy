@@ -168,3 +168,26 @@ def jackets(request):
     return render(request, 'core/jackets.html', {'product_data': product_data})
 
 
+def tracksuits(request):
+    product_data = [
+        {"name": " ", "image": "tracksuits_images/image1.webp", "url": ""},
+    ]
+    return render(request, 'core/tracksuits.html', {'product_data': product_data})
+
+
+def budget(request):
+    product_data = [
+        {"name": "NOFS Tracksuit ", "image": "budget_images/image1.jpg", "url": "https://weidian.info/58s4h"},
+        {"name": " ", "image": "budget_images/image1.jpg", "url": ""},
+        {"name": " ", "image": "budget_images/image1.webp", "url": ""},
+        {"name": " ", "image": "budget_images/image1.webp", "url": ""},
+        {"name": " ", "image": "budget_images/image1.webp", "url": ""},
+
+        {"name": " ", "image": "budget_images/image1.webp", "url": ""},
+        {"name": " ", "image": "budget_images/image1.webp", "url": ""},
+        {"name": " ", "image": "budget_images/image1.webp", "url": ""},
+        {"name": " ", "image": "budget_images/image1.webp", "url": ""},
+        {"name": " ", "image": "budget_images/image1.webp", "url": ""},
+
+    ]
+    return render(request, 'core/budget.html', {'product_data': product_data})

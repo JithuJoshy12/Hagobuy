@@ -13,4 +13,6 @@ urlpatterns = [
     path('accessories/', views.accessories, name='accessories'),
     path('sweaters/', views.sweaters, name='sweaters'),
     path('jackets/', views.jackets, name='jackets'),
+    path('tracksuits/', views.tracksuits, name='tracksuits'),
+    path('budget/', views.budget, name='budget'),
 ]
