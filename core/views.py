@@ -170,7 +170,7 @@ def jackets(request):
 
 def tracksuits(request):
     product_data = [
-        {"name": " ", "image": "tracksuits_images/image1.webp", "url": ""},
+        {"name": " ", "image": "budget_images/image2.jpg", "url": ""},
     ]
     return render(request, 'core/tracksuits.html', {'product_data': product_data})
 
