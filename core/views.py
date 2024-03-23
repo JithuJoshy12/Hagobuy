@@ -106,6 +106,24 @@ def shoes(request):
         {"name": "LV Trainers", "image": "shoes_images/image3.jpg", "url": "https://weidian.info/wytnn"},
         {"name": "NB 550", "image": "shoes_images/image4.jpg", "url": "https://weidian.info/8vsyu"},
         {"name": "Kobe 4 / 5 / 6 / 8", "image": "shoes_images/image5.webp", "url": "https://weidian.info/z6zek"},
+
+        {"name": "SB Lobster Dunk Lows", "image": "shoes_images/image6.jpg", "url": "https://weidian.info/pkart"},
+        {"name": "SB Dunk Lows", "image": "shoes_images/image7.jpg", "url": "https://weidian.info/2dt5h"},
+        {"name": "LV X SB Dunk Lows", "image": "shoes_images/image8.png", "url": "https://weidian.info/pqxrx"},
+        {"name": "EBAY X SB Dunk Lows", "image": "shoes_images/image9.jpg", "url": "https://weidian.info/8mevp"},
+        {"name": "PARIS X SB DUNK Lows", "image": "shoes_images/image10.jpg", "url": "https://weidian.info/2t7gq"},
+
+        {"name": "Rare AJ1", "image": "shoes_images/image11.jpg", "url": "https://weidian.info/a65xs"},
+        {"name": "AJ1 Stage Haze", "image": "shoes_images/image12.jpg", "url": "https://weidian.info/h32v6"},
+        {"name": "30+ AJ1 Colorways", "image": "shoes_images/image13.jpg", "url": "https://weidian.info/74k8s"},
+        {"name": "Off White AJ1 Blue High ", "image": "shoes_images/image14.jpg", "url": "https://weidian.info/3wek9"},
+        {"name": "Off White AJ1 Chicago High ", "image": "shoes_images/image15.jpg", "url": "https://weidian.info/pd3nh"},
+
+        {"name": "20+ AJ4", "image": "shoes_images/image16.webp", "url": "https://weidian.info/vhc7n"},
+        {"name": "Levi X AJ4", "image": "shoes_images/image17.jpg", "url": "https://weidian.info/semn9"},
+        {"name": "More AJ4", "image": "shoes_images/image18.jpg", "url": "https://weidian.info/248hz"},
+        {"name": "AJ1 Low Nothing But New  ", "image": "shoes_images/image19.jpg", "url": "https://weidian.info/jabmv"},
+        {"name": "AJ1 Low Lakers Blue Yellow", "image": "shoes_images/image20.jpg", "url": "https://weidian.info/yknr9"},
     ]
     return render(request, 'core/shoes.html', {'product_data': product_data})
 
@@ -146,6 +164,42 @@ def sweaters(request):
         {"name": "4TUNE Full Zipup", "image": "sweaters_images/image3.jpg", "url": "https://weidian.info/xehzb"},
         {"name": "Travis Scot Cactus Jack Zipup", "image": "sweaters_images/image4.jpg", "url": "https://weidian.info/vagp4"},
         {"name": "Polo Ralph Lauren Zipup", "image": "sweaters_images/image5.jpg", "url": "https://weidian.info/pr4fg"},
+
+        {"name": "Chrome Heart Zipper/Hoodie", "image": "sweaters_images/image6.avif", "url": "https://weidian.info/dyktk"},
+        {"name": "Saint Michael Graffiti Hoodie", "image": "sweaters_images/image7.avif", "url": "https://weidian.info/4vx76"},
+        {"name": "Playboi Carti Hoodie", "image": "sweaters_images/image8.avif", "url": "https://weidian.info/b4x9a"},
+        {"name": "Ye Must be Born Again Hoodie", "image": "sweaters_images/image9.jpg", "url": "https://weidian.info/dwhqb"},
+        {"name": "123 FOG Hoodie", "image": "sweaters_images/image10.jpg", "url": "https://weidian.info/23wdy"},
+
+        {"name": "Cuwu Amikaki Graphic printed hoodie", "image": "sweaters_images/image11.avif", "url": "https://weidian.info/943th"},
+        {"name": "Palm Angels Web Hoodie", "image": "sweaters_images/image12.avif", "url": "https://weidian.info/khszt"},
+        {"name": "Yeezy Gap Hoodie", "image": "sweaters_images/image13.avif", "url": "https://weidian.info/b2d58"},
+        {"name": "Travis Scot MCD Hoodie", "image": "sweaters_images/image14.jpg", "url": "https://weidian.info/bnm78"},
+        {"name": "Stussy 8Ball Hoodie", "image": "sweaters_images/image15.avif", "url": "https://weidian.info/ca7um"},
+
+        {"name": "Trapstar X Dave hoodie", "image": "sweaters_images/image16.avif", "url": "https://weidian.info/mg4qr"},
+        {"name": "Vetements Hoodie", "image": "sweaters_images/image17.webp", "url": "https://weidian.info/7h49y"},
+        {"name": "Off White Hoodie", "image": "sweaters_images/image18.jpg", "url": "https://weidian.info/3xpc5"},
+        {"name": "Y2K Titanic Hoodie", "image": "sweaters_images/image19.png", "url": "https://weidian.info/p4uv2"},
+        {"name": "Vintage Sicko Hoodie", "image": "sweaters_images/image20.avif", "url": "https://weidian.info/xdhf4"},
+
+        {"name": "Saint hoodie", "image": "sweaters_images/image21.avif", "url": "https://weidian.info/6hq5c"},
+        {"name": "Mini Nike Swoosh Hoodie", "image": "sweaters_images/image22.jpg", "url": "https://weidian.info/ncgkg"},
+        {"name": "Bape Full Head Zipup", "image": "sweaters_images/image23.jpg", "url": "https://weidian.info/p7c8d"},
+        {"name": "Batman Bape Full Head Zipup", "image": "sweaters_images/image24.avif", "url": "https://weidian.info/x8rwq"},
+        {"name": "Star Bape Full Head Zipup", "image": "sweaters_images/image25.avif", "url": "https://weidian.info/kbrj2"},
+
+        {"name": "Travis Scot X Kaws Zipup", "image": "sweaters_images/image26.avif", "url": "https://weidian.info/4mp6a"},
+        {"name": "Rick Owns Full Zip", "image": "sweaters_images/image27.avif", "url": "https://weidian.info/guzjb"},
+        {"name": "All Shadows Zipup", "image": "sweaters_images/image28.jpg", "url": "https://weidian.info/dpjf4"},
+        {"name": "Mastermind Travis Scot Zipup", "image": "sweaters_images/image29.avif", "url": "https://weidian.info/vagp4"},
+        {"name": "Burberry Zipup", "image": "sweaters_images/image30.jpg", "url": "https://weidian.info/c7wr9"},
+
+        {"name": "Stussy Zipup", "image": "sweaters_images/image31.jpg", "url": "https://weidian.info/stu6q"},
+        {"name": "CP Zipup", "image": "sweaters_images/image32.jpg", "url": "https://weidian.info/u2phe"},
+        {"name": "High Zipup Blank", "image": "sweaters_images/image33.avif", "url": "https://weidian.info/by8hg"},
+        {"name": "Wrld Krisis Full Head Zipup", "image": "sweaters_images/image34.jpg", "url": "https://weidian.info/xqa5r"},
+        {"name": "Ver Blee Full Head Zipup", "image": "sweaters_images/image35.avif", "url": "https://weidian.info/bf2w3"},
     ]
     return render(request, 'core/sweaters.html', {'product_data': product_data})
 
@@ -170,7 +224,11 @@ def jackets(request):
 
 def tracksuits(request):
     product_data = [
-        {"name": " ", "image": "", "url": ""},
+        {"name": "Drake Nocta Tracksuit ", "image": "tracksuits_images/image1.jpg", "url": "https://weidian.info/pfr6u"},
+        {"name": "Corteiz Tracksuit ", "image": "tracksuits_images/image2.webp", "url": "https://weidian.info/bvdx9"},
+        {"name": "Football Tracksuit ", "image": "tracksuits_images/image3.jpg", "url": "https://weidian.info/nv4dp"},
+        {"name": "SPIDER Tracksuit ", "image": "tracksuits_images/image4.jpg", "url": "https://weidian.info/fh3ez"},
+        {"name": "EE Tracksuit ", "image": "tracksuits_images/image5.avif", "url": "https://weidian.info/rw6h5"},
     ]
     return render(request, 'core/tracksuits.html', {'product_data': product_data})
 
@@ -178,16 +236,29 @@ def tracksuits(request):
 def budget(request):
     product_data = [
         {"name": "NOFS Tracksuit ", "image": "budget_images/image1.jpg", "url": "https://weidian.info/58s4h"},
-        {"name": " ", "image": "budget_images/image1.jpg", "url": ""},
-        {"name": " ", "image": "budget_images/image1.webp", "url": ""},
-        {"name": " ", "image": "budget_images/image1.webp", "url": ""},
-        {"name": " ", "image": "budget_images/image1.webp", "url": ""},
+        {"name": "Stussy Sweater ", "image": "budget_images/image2.jpg", "url": "https://weidian.info/mh3jj"},
+        {"name": "LV Belt ", "image": "budget_images/image3.jpg", "url": "https://weidian.info/mp8mt"},
+        {"name": "Hermes Belt ", "image": "budget_images/image4.jpg", "url": "https://weidian.info/gvjmm"},
+        {"name": "LV Trainers ", "image": "budget_images/image5.jpg", "url": "https://weidian.info/fx8j3"},
 
-        {"name": " ", "image": "budget_images/image1.webp", "url": ""},
-        {"name": " ", "image": "budget_images/image1.webp", "url": ""},
-        {"name": " ", "image": "budget_images/image1.webp", "url": ""},
-        {"name": " ", "image": "budget_images/image1.webp", "url": ""},
-        {"name": " ", "image": "budget_images/image1.webp", "url": ""},
+        {"name": "Iced Out Cuban Bracelet ", "image": "budget_images/image6.avif", "url": "https://weidian.info/mqgpa"},
+        {"name": "Cuban Bracelet ", "image": "budget_images/image7.avif", "url": "https://weidian.info/xemsw"},
+        {"name": "Rolex Watch ", "image": "budget_images/image8.jpg", "url": "https://weidian.info/m532h"},
+        {"name": "Sterling Sliver Bead Bracelet ", "image": "budget_images/image9.avif", "url": "https://weidian.info/vzbh3"},
+        {"name": "Prada Sunglasses ", "image": "budget_images/image10.jpg", "url": "https://weidian.info/e2k34"},
+
+        {"name": "ASSC Shirts", "image": "budget_images/image11.jpg", "url": "https://weidian.info/qxkms"},
+        {"name": "Unbranded Star Full Head Zipper ", "image": "budget_images/image12.jpg", "url": "https://weidian.info/6vu64"},
+        {"name": "Jordan 4s", "image": "budget_images/image13.jpg", "url": "https://weidian.info/3hygz"},
+        {"name": "Airpod Maxes", "image": "budget_images/image14.jpg", "url": "https://weidian.info/u7scw"},
+        {"name": "More Stussy Hoodies", "image": "budget_images/image15.jpg", "url": "https://weidian.info/pbksh"},
+
+        {"name": "Kayne West Heartbreak Shirt", "image": "budget_images/image21.jpg", "url": "https://weidian.info/3xaa2"},
+        {"name": "Justin Bieber Colorblind Shirt", "image": "budget_images/image22.avif", "url": "https://weidian.info/qh23b"},
+        {"name": "Kayne West I Feel Like Pablo Shirt", "image": "budget_images/image23.avif", "url": "https://weidian.info/tg8jv"},
+        {"name": "Kayne West No More Parties In LA Shirt", "image": "budget_images/image24.jpg", "url": "https://weidian.info/fzvjd"},
+        {"name": "Palm Angel Shirt", "image": "budget_images/image25.jpg", "url": "https://weidian.info/dksmr"},
+
 
     ]
     return render(request, 'core/budget.html', {'product_data': product_data})
