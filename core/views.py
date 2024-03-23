@@ -18,6 +18,74 @@ def short_sleeves(request):
         {"name": "Blank Shirts", "image": "short_sleeves_images/image8.avif", "url": "https://weidian.info/qvu8j"},
         {"name": "Yeezus Tour Merch Shirts", "image": "short_sleeves_images/image9.jpg", "url": "https://weidian.info/da82d"},
         {"name": "Jacquemes Artichoke Shirts", "image": "short_sleeves_images/image10.jpg", "url": "https://weidian.info/2j6gr"},
+
+        {"name": "Narcissict Merch", "image": "short_sleeves_images/image11.jpg", "url": "https://weidian.info/gxpmx"},  # Assuming the image is stored in static/images directory
+        {"name": "Fat Tub Of Lard Shirts ","image": "short_sleeves_images/image12.avif", "url": "https://weidian.info/5hzgr"},
+        {"name": "Balenciaga Misplaced Shirt ", "image": "short_sleeves_images/image13.jpg", "url": "https://weidian.info/ujwy5"},
+        {"name": "Vetements I did Nothing Shirt", "image": "short_sleeves_images/image14.avif", "url": "https://weidian.info/sam5n"},
+        {"name": "30+ Travis Scot Merch ", "image": "short_sleeves_images/image15.avif", "url": "https://weidian.info/6zkzu"},
+
+        {"name": "OnlyFans Shirts", "image": "short_sleeves_images/image16.avif", "url": "https://weidian.info/5kc2w"},  # Assuming the image is stored in static/images directory
+        {"name": "Two piece Shirts ","image": "short_sleeves_images/image17.avif", "url": "https://weidian.info/85hpp"},
+        {"name": "Balenciaga Sporty B Shrunk Tee", "image": "short_sleeves_images/image18.jpg", "url": "https://weidian.info/usqds"},
+        {"name": "Balenciaga x Adidas Shirts", "image": "short_sleeves_images/image19.jpg", "url": "https://weidian.info/h6cwy"},
+        {"name": "Carti WLR Vampire Shirt White", "image": "short_sleeves_images/image20.avif", "url": "https://weidian.info/c5t48"},
+
+        {"name": "Carti WLR Hell Merch ", "image": "short_sleeves_images/image21.avif", "url": "https://weidian.info/v2aah"},  # Assuming the image is stored in static/images directory
+        {"name": "Corteiz Shirts ","image": "short_sleeves_images/image22.jpg", "url": "https://weidian.info/gynx6"},
+        {"name":"Carti x CPFM Merch White ", "image": "short_sleeves_images/image23.avif", "url": "https://weidian.info/4hcxy"},
+        {"name": "Chrome Heart Cross Shirt", "image": "short_sleeves_images/image24.jpg", "url": "https://weidian.info/jjxh6"},
+        {"name": "Dennis Rodman Tee ", "image": "short_sleeves_images/image25.avif", "url": "https://weidian.info/tb7q3"},
+
+        {"name": "Golf Wang Shirts ", "image": "short_sleeves_images/image26.avif", "url": "https://weidian.info/mmycu"},  # Assuming the image is stored in static/images directory
+        {"name": "Frank Ocean Blonded Tee ","image": "short_sleeves_images/image27.jpg", "url": "https://weidian.info/y86ty"},
+        {"name":"Gallery Dept Alone in Silence Shirt ", "image": "short_sleeves_images/image28.jpg", "url": "https://weidian.info/7r53q"},
+        {"name": "Fragment Clot Tee (2006)", "image": "short_sleeves_images/image29.jpg", "url": "https://weidian.info/jjxh6"},
+        {"name": "Fuck Me? Fuck You! Number Nine Shirt ", "image": "short_sleeves_images/image30.avif", "url": "https://weidian.info/qcmyv"},
+
+        {"name": "Gallery Dept Middle Finger Tee ", "image": "short_sleeves_images/image31.avif", "url": "https://weidian.info/fe2d6"},  # Assuming the image is stored in static/images directory
+        {"name": "Gallery DEPT Hollywood T-shirt ","image": "short_sleeves_images/image32.jpg", "url": "https://weidian.info/4bwjp"},
+        {"name":"Gothic Slogan Number Nine Shirt ", "image": "short_sleeves_images/image33.avif", "url": "https://weidian.info/x95b6"},
+        {"name": "Corteiz Grass T-shirts", "image": "short_sleeves_images/image34.jpg", "url": "https://weidian.info/tedue"},
+        {"name": "FG T-shirts ", "image": "short_sleeves_images/image35.jpg", "url": "https://weidian.info/qsky7"},
+        
+        {"name": "Hellstar Grateful Dead Tee ", "image": "short_sleeves_images/image36.jpg", "url": "https://weidian.info/5m997"},  # Assuming the image is stored in static/images directory
+        {"name": "CPFM Hawaiian Shirt ","image": "short_sleeves_images/image37.avif", "url": "https://weidian.info/zsznf"},
+        {"name":"Kapital Ringer Tee ", "image": "short_sleeves_images/image38.avif", "url": "https://weidian.info/jmkn5"},
+        {"name": "House of Errors T-Shirt", "image": "short_sleeves_images/image39.avif", "url": "https://weidian.info/4g2er"},
+        {"name": "Grateful Dead Shirt", "image": "short_sleeves_images/image40.jpg", "url": "https://weidian.info/r3gp9"},
+
+        {"name": "Dior Oblique Print Polo Shirts", "image": "short_sleeves_images/image41.jpg", "url": "https://weidian.info/z98mb"},  # Assuming the image is stored in static/images directory
+        {"name": "Joy Sicko Tee ","image": "short_sleeves_images/image42.avif", "url": "https://weidian.info/j3wbb"},
+        {"name":"Playboi Carti Falling in Reverse WLR Shirt", "image": "short_sleeves_images/image43.avif", "url": "https://weidian.info/7zy7g"},
+        {"name": "Led Zeppelin Number Nine Shirt ", "image": "short_sleeves_images/image44.avif", "url": "https://weidian.info/wbjjz"},
+        {"name": "Playboi Carti WLR Merch", "image": "short_sleeves_images/image45.avif", "url": "https://weidian.info/ph4fd"},
+
+        {"name": "10+ Vintage Rapper Graphic Tees", "image": "short_sleeves_images/image46.avif", "url": "https://weidian.info/5gu8f"},  # Assuming the image is stored in static/images directory
+        {"name": "Trapstar Jerseys ","image": "short_sleeves_images/image47.jpg", "url": "https://weidian.info/qynsg"},
+        {"name":"Number Nine 3 Mickey Shirts", "image": "short_sleeves_images/image48.avif", "url": "https://weidian.info/86u9c"},
+        {"name": "Prada Dress Shirts", "image": "short_sleeves_images/image49.avif", "url": "https://weidian.info/ny8du"},
+        {"name": "Rick Owens DRKR Tee", "image": "short_sleeves_images/image50.jpg", "url": "https://weidian.info/y3bdb"},
+
+        {"name": "Kurt Cobain Number Nine ", "image": "short_sleeves_images/image51.avif", "url": "https://weidian.info/skqd6"},  # Assuming the image is stored in static/images directory
+        {"name": "Nirvana Shirt","image": "short_sleeves_images/image52.avif", "url": "https://weidian.info/n9cvn"},
+        {"name":"Loved Gun Number Nine T Shirt", "image": "short_sleeves_images/image53.avif", "url": "https://weidian.info/unefd"},
+        {"name": "Ken Car$on Teen X Merch ", "image": "short_sleeves_images/image54.avif", "url": "https://weidian.info/wua3q"},
+        {"name": "Narcissist Merch", "image": "short_sleeves_images/image55.avif", "url": "https://weidian.info/he6wt"},
+
+        {"name": "Nirvana Vintage Shirts", "image": "short_sleeves_images/image56.jpg", "url": "https://weidian.info/j8fsu"},  # Assuming the image is stored in static/images directory
+        {"name": "Undercover x CDG Shirt","image": "short_sleeves_images/image57.avif", "url": "https://weidian.info/8hfha"},
+        {"name":"Undercover Scab Scorpion T-Shirt", "image": "short_sleeves_images/image58.avif", "url": "https://weidian.info/4vvb9"},
+        {"name": "Mood Swings T-Shirts", "image": "short_sleeves_images/image59.avif", "url": "https://weidian.info/nneex"},
+        {"name": "Rick Owens Fog Machine T Shirts", "image": "short_sleeves_images/image60.jpg", "url": "https://weidian.info/f8t77"},
+
+        {"name": "Playboi Carti Anime Shirt White ", "image": "short_sleeves_images/image61.avif", "url": "https://weidian.info/vawch"},  # Assuming the image is stored in static/images directory
+        {"name": "Eyeball Vintage Tee ","image": "short_sleeves_images/image62.jpg", "url": "https://weidian.info/fen4e"},
+        {"name":"Kapital Two Tone Shirts", "image": "short_sleeves_images/image63.avif", "url": "https://weidian.info/wfbg6"},
+        {"name": "Carti WLR Hell Merch White ", "image": "short_sleeves_images/image64.avif", "url": "https://weidian.info/cw6vx"},
+        {"name": "Saint Michael Virgin Mary Tee", "image": "short_sleeves_images/image65.avif", "url": "https://weidian.info/cz957"},
+
+        
         # Add or modify product data as needed
         
     ]
@@ -26,10 +94,40 @@ def short_sleeves(request):
 def long_sleeves(request):
     product_data = [
         {"name": "Curly Stussy Sweatshirt", "image": "long_sleeves_images/image1.jpg", "url": "https://weidian.info/2jccs"},
-        {"name": "Nike Sweatshirt", "image": "long_sleeves_images/image2.jpg", "url": "https://weidian.info/ymtuz"},
+        {"name": "Small Logo Nike Sweatshirt", "image": "long_sleeves_images/image2.jpg", "url": "https://weidian.info/ymtuz"},
         {"name": "Chrome Heart Sweatshirt", "image": "long_sleeves_images/image3.jpg", "url": "https://weidian.info/vbbry"},
         {"name": "Moncler Sweatshirt", "image": "long_sleeves_images/image4.jpg", "url": "https://weidian.info/md57h"},
         {"name": "Carhartt Half Zip", "image": "long_sleeves_images/image5.jpg", "url": "https://weidian.info/s32q5"},
+
+        {"name": "Orange Autumn Chrome Heart Sweatshirt", "image": "long_sleeves_images/image6.jpg", "url": "https://weidian.info/29cpn"},
+        {"name": "Bape Sweatshirt", "image": "long_sleeves_images/image7.avif", "url": "https://weidian.info/pxvna"},
+        {"name": "Hockey X Balenciaga Jersey Sweatshirt", "image": "long_sleeves_images/image8.jpg", "url": "https://weidian.info/dj74d"},
+        {"name": "Balenciaga Campaign Sweatshirt", "image": "long_sleeves_images/image9.jpg", "url": "https://weidian.info/wn6ez"},
+        {"name": "Balenciaga Pride Crewneck", "image": "long_sleeves_images/image10.jpg", "url": "https://weidian.info/v7c9e"},
+
+        {"name": "Destroyed Chrome Heart Sweatshirt", "image": "long_sleeves_images/image11.jpg", "url": "https://weidian.info/2jyap"},
+        {"name": "ERD Knit Sweatshirt", "image": "long_sleeves_images/image12.jpg", "url": "https://weidian.info/5muef"},
+        {"name": "ERD Lou Reed Sweatshirt", "image": "long_sleeves_images/image13.avif", "url": "https://weidian.info/qz9st"},
+        {"name": "Frank Ocean Sweatshirt", "image": "long_sleeves_images/image14.avif", "url": "https://weidian.info/e8xqq"},
+        {"name": "Gallery Dept Hollywood Sweatshirt", "image": "long_sleeves_images/image15.jpg", "url": "https://weidian.info/ntsa4"},
+
+        {"name": "Golf Crewnecks", "image": "long_sleeves_images/image16.avif", "url": "https://weidian.info/9d35m"},
+        {"name": "Gallery Dept Washed Sweatshirt", "image": "long_sleeves_images/image17.avif", "url": "https://weidian.info/72cp3"},
+        {"name": "Brad Pitt Sweatshirt", "image": "long_sleeves_images/image18.jpg", "url": "https://weidian.info/xtkzr"},
+        {"name": "Kapital Bone Sweatshirt", "image": "long_sleeves_images/image19.avif", "url": "https://weidian.info/c49f3"},
+        {"name": "LV Numbers Jacquard Sweatshirt", "image": "long_sleeves_images/image20.avif", "url": "https://weidian.info/xeyw4"},
+
+        {"name": "Mastermind Crewneck", "image": "long_sleeves_images/image21.jpg", "url": "https://weidian.info/2bp8x"},
+        {"name": "Cactus Plant X Nike Sweatshirt", "image": "long_sleeves_images/image22.jpg", "url": "https://weidian.info/mkevz"},
+        {"name": "Nike Sweatshirt", "image": "long_sleeves_images/image23.jpg", "url": "https://weidian.info/8zt7r"},
+        {"name": "Maison Margiela Knit Sweatshirt", "image": "long_sleeves_images/image24.jpg", "url": "https://weidian.info/zzrj7"},
+        {"name": "Stussy X Nike Sweatshirt", "image": "long_sleeves_images/image25.jpg", "url": "https://weidian.info/acdtw"},
+
+        {"name": "Knitted Female Graffiti Crewneck", "image": "long_sleeves_images/image26.avif", "url": "https://weidian.info/5a9sj"},
+        {"name": "RafSimons Knitted Sweatshirt", "image": "long_sleeves_images/image27.avif", "url": "https://weidian.info/qy5rz"},
+        {"name": "Pool X Stussy Knitted Sweatshirt", "image": "long_sleeves_images/image28.avif", "url": "https://weidian.info/4hz7s"},
+        {"name": "SickSidSweatshirt", "image": "long_sleeves_images/image29.avif", "url": "https://weidian.info/umgu6"},
+        {"name": "Undercover x Evangelion Crewneck", "image": "long_sleeves_images/image30.avif", "url": "https://weidian.info/mxtrf"},
     ]
     return render(request, 'core/long_sleeves.html', {'product_data': product_data})
 
@@ -218,7 +316,37 @@ def jackets(request):
         {"name": "Moncler Maya Jacket", "image": "jackets_images/image8.webp", "url": "https://weidian.info/pn9gh"},
         {"name": "THE NORTH FACE 1996 Retro Nuptse Jacket", "image": "jackets_images/image9.jpg", "url": "https://weidian.info/rk49d"},
         {"name": "Drake Nike Jacket", "image": "jackets_images/image10.jpg", "url": "https://weidian.info/5h79d"},
-    ]
+
+        {"name": "Kapital Puffer Vest", "image": "jackets_images/image11.avif", "url": "https://weidian.info/z2y6z"},
+        {"name": "LV Varsity Jacket", "image": "jackets_images/image12.jpg", "url": "https://weidian.info/7kbgk"},
+        {"name": "Spider X Moncler Maya Jacket", "image": "jackets_images/image13.avif", "url": "https://weidian.info/k72p5"},
+        {"name": " Balenciaga X Astronaut Jacket", "image": "jackets_images/image14.avif", "url": "https://weidian.info/qe5kw"},
+        {"name": "Balenciaga Cropped Fur Jacket", "image": "jackets_images/image15.jpg", "url": "https://weidian.info/5dqqa"},
+
+        {"name": "10+ Human Made Jackets", "image": "jackets_images/image16.jpg", "url": "https://weidian.info/5qw4d"},
+        {"name": "Yeezy X Gap Jacket", "image": "jackets_images/image17.avif", "url": "https://weidian.info/ftmya"},
+        {"name": "Balenciaga Track Jacket", "image": "jackets_images/image18.jpg", "url": "https://weidian.info/jdqx2"},
+        {"name": "Bottega Veneta Cropped Black Jacket", "image": "jackets_images/image19.jpg", "url": "https://weidian.info/2t49b"},
+        {"name": "Bape Jacket", "image": "jackets_images/image20.avif", "url": "https://weidian.info/wbz6y"},
+
+        {"name": "Canada Goose Expedition 4460 Jacket", "image": "jackets_images/image21.jpg", "url": "https://weidian.info/uysk9"},
+        {"name": "Chrome Heart Jacket", "image": "jackets_images/image22.jpg", "url": "https://weidian.info/n7nas"},
+        {"name": "CPFM Weed Jacket", "image": "jackets_images/image23.avif", "url": "https://weidian.info/sxr5d"},
+        {"name": "Craig Green Jacket", "image": "jackets_images/image24.avif", "url": "https://weidian.info/kdnee"},
+        {"name": "House of Errors Vest", "image": "jackets_images/image25.avif", "url": "https://weidian.info/czwez"},
+
+        {"name": "Kapital Vest", "image": "jackets_images/image26.avif", "url": "https://weidian.info/nqp3m"},
+        {"name": "Kapital Varsity Jacket", "image": "jackets_images/image27.avif", "url": "https://weidian.info/vxtjj"},
+        {"name": "Kusikohc Jacket", "image": "jackets_images/image28.avif", "url": "https://weidian.info/bwq9j"},
+        {"name": "MKSZY Multi Cargo Jacket", "image": "jackets_images/image29.avif", "url": "https://weidian.info/s64g9"},
+        {"name": "Needles Jacket", "image": "jackets_images/image30.avif", "url": "https://weidian.info/2m3yt"},
+        
+        {"name": "Off White Laboratory of Fun Varsity Jacket", "image": "jackets_images/image31.jpg", "url": "https://weidian.info/n8849"},
+        {"name": "PAF Cross-body Zip up Fleece", "image": "jackets_images/image32.avif", "url": "https://weidian.info/b6emb"},
+        {"name": "Palm Angels x Moncler Maya 70 Jacket", "image": "jackets_images/image33.avif", "url": "https://weidian.info/v3j62"},
+        {"name": "Rick Owens x Moncler Puffer", "image": "jackets_images/image34.jpg", "url": "https://weidian.info/2dfvb"},
+        {"name": "Stussy Air Force Jacket", "image": "jackets_images/image35.avif", "url": "https://weidian.info/swqa6"},
+        ]
     return render(request, 'core/jackets.html', {'product_data': product_data})
 
 
@@ -229,6 +357,13 @@ def tracksuits(request):
         {"name": "Football Tracksuit ", "image": "tracksuits_images/image3.jpg", "url": "https://weidian.info/nv4dp"},
         {"name": "SPIDER Tracksuit ", "image": "tracksuits_images/image4.jpg", "url": "https://weidian.info/fh3ez"},
         {"name": "EE Tracksuit ", "image": "tracksuits_images/image5.avif", "url": "https://weidian.info/rw6h5"},
+
+        {"name": "Central Cee X Corteiz Tracksuit ", "image": "tracksuits_images/image6.avif", "url": "https://weidian.info/hegfm"},
+        {"name": "Juicy Tracksuit ", "image": "tracksuits_images/image7.jpg", "url": "https://weidian.info/6whe6"},
+        {"name": "Palm Angel Tracksuit ", "image": "tracksuits_images/image8.webp", "url": "https://weidian.info/2bnwy"},
+        {"name": "30+ Trapstar Tracksuit ", "image": "tracksuits_images/image9.jpg", "url": "https://weidian.info/f6e2a"},
+        {"name": "4+ Syna Tracksuit ", "image": "tracksuits_images/image10.webp", "url": "https://weidian.info/q2335"},
+
     ]
     return render(request, 'core/tracksuits.html', {'product_data': product_data})
 
